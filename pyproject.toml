@@ -1,6 +1,12 @@
 [project]
 name = "soft-sensor"
 version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.14"
-dependencies = []
+description = "Bioreactor soft sensor demo: simulate data and train a small NN to estimate glucose from online signals."
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+dependencies = [
+    "matplotlib>=3.5",
+    "numpy>=1.22",
+    "pandas>=1.5",
+    "scikit-learn>=1.1",
+]
